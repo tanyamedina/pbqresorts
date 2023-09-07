@@ -1,0 +1,64 @@
+/* Reset de estilos para quitar márgenes y rellenos predeterminados */
+body, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos generales de la página */
+.landing-page {
+  display: flex;
+  background: url('https://img.freepik.com/foto-gratis/al-atardecer-playa-tropical-mar-palmera-coco_74190-1075.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 200vh;
+  width: 222vh;
+}
+
+/* Estilos de la barra lateral (sidebar) */
+.sidebar {
+  background-color: #333;
+  color: #fff;
+  width: 200px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+}
+
+.reservar-button {
+  background-color: #ff6600;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.reservar-button a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Estilos del contenido principal */
+.content {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  text-align: center;
+}
+
+.content p {
+  font-size: 42px;
+  color: #fff;
+}
