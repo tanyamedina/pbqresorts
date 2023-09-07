@@ -33,6 +33,10 @@ body, ul, li {
   margin-bottom: 10px;
 }
 
+.sidebar ul li a {
+  /* Estilos para el texto del menú */
+  color: #ffffff;
+}
 .reservar-button {
   background-color: #ff6600;
   color: #fff;
@@ -50,15 +54,18 @@ body, ul, li {
 }
 
 /* Estilos del contenido principal */
+/* Estilos del contenido principal */
 .content {
   flex-grow: 1;
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: top;
-  text-align: center;
+  text-align: top;
+  font-family: 'Ysabeau Infant', sans-serif;
+  margin-left: 40px;
 }
 
 .content p {
-  font-size: 42px;
+  font-size: 52px;
   color: #fff;
 }
