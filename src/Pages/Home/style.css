@@ -1,0 +1,28 @@
+/* Estilos del contenido principal */
+/* Estilos del contenido principal */
+.home {
+    flex-grow: 1;
+    display: flex;
+    justify-content: left;
+    align-items: top;
+    text-align: top;
+    font-family: 'Ysabeau Infant', sans-serif;
+    margin-left: 40px;
+    width: 100%;
+  }
+  
+  .home p {
+    color: #fff;
+  }
+
+  .home p span{
+    display: block;
+  }
+
+  .home p span:nth-child(1){
+    font-size: 52px;
+  }
+
+  .home p span:nth-child(2){
+    font-size: 40px;
+  }

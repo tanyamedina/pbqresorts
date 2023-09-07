@@ -1,5 +1,12 @@
+* {
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
 /* Reset de estilos para quitar márgenes y rellenos predeterminados */
-body, ul, li {
+body,
+ul,
+li {
   margin: 0;
   padding: 0;
 }
@@ -7,10 +14,11 @@ body, ul, li {
 /* Estilos generales de la página */
 .landing-page {
   display: flex;
-  background: url('https://img.freepik.com/foto-gratis/al-atardecer-playa-tropical-mar-palmera-coco_74190-1075.jpg') no-repeat center center fixed;
+  background: url("https://img.freepik.com/foto-gratis/al-atardecer-playa-tropical-mar-palmera-coco_74190-1075.jpg")
+    no-repeat center center fixed;
   background-size: cover;
-  height: 200vh;
-  width: 222vh;
+  height: 100vh;
+  width: 100vw;
 }
 
 /* Estilos de la barra lateral (sidebar) */
@@ -22,6 +30,8 @@ body, ul, li {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  position: fixed;
+  height: 100vh;
 }
 
 .sidebar ul {
@@ -37,6 +47,11 @@ body, ul, li {
   /* Estilos para el texto del menú */
   color: #ffffff;
 }
+
+.sidebar ul li a:hover {
+  text-decoration: underline;
+}
+
 .reservar-button {
   background-color: #ff6600;
   color: #fff;
@@ -53,19 +68,9 @@ body, ul, li {
   text-decoration: none;
 }
 
-/* Estilos del contenido principal */
-/* Estilos del contenido principal */
-.content {
-  flex-grow: 1;
-  display: flex;
-  justify-content: left;
-  align-items: top;
-  text-align: top;
-  font-family: 'Ysabeau Infant', sans-serif;
-  margin-left: 40px;
-}
+/*esto es un estilo global a todas tus páginas */
 
-.content p {
-  font-size: 52px;
-  color: #fff;
+.pages {
+  margin-left: 200px;
+  width: 100%;
 }
