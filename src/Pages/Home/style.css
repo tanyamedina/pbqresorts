@@ -13,16 +13,25 @@
   
   .home p {
     color: #fff;
+    margin-top: 6cm;
+    margin-left: 3.5cm; /
   }
+  
 
   .home p span{
     display: block;
   }
 
   .home p span:nth-child(1){
-    font-size: 52px;
+    font-size: 25px;
   }
 
   .home p span:nth-child(2){
-    font-size: 40px;
+    font-size: 85px;
+    margin-bottom: -30px; /* Ajusta el espacio entre los elementos <span> */
+    margin-top: -30px;
+  }
+
+  .home p span:nth-child(3){
+    font-size: 25px;
   }

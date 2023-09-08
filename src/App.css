@@ -23,13 +23,15 @@ li {
 
 /* Estilos de la barra lateral (sidebar) */
 .sidebar {
-  background-color: #333;
+  background-color: #ffffff;
   color: #fff;
   width: 200px;
   padding: 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  text-align: center;
+  font-family: 'Karla', sans-serif;
   position: fixed;
   height: 100vh;
 }
@@ -45,7 +47,7 @@ li {
 
 .sidebar ul li a {
   /* Estilos para el texto del menú */
-  color: #ffffff;
+  color: #000000;
 }
 
 .sidebar ul li a:hover {
@@ -53,7 +55,7 @@ li {
 }
 
 .reservar-button {
-  background-color: #ff6600;
+  background-color: #764521;
   color: #fff;
   border: none;
   padding: 10px 15px;

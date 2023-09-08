@@ -4,8 +4,9 @@ export const Home = () => {
   return (
     <div className="home">
       <p>
-        <span>Resorts Exclusivos</span>
-        <span>en las Soleadas Costas de México</span>
+        <span>RESORTS EXCLUSIVOS EN LAS</span>
+        <span className="small-gap">Soleadas Costas</span>
+        <span>de México</span>
       </p>
     </div>
   );
